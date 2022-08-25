@@ -3,7 +3,7 @@ from setuptools import setup
 
 if __name__ == '__main__':
     setup(
-        name='uetools.plugins.example',
+        name='uetools.plugins.myplugin',
         version='0.0.0',
         description='uetools plugin example',
         author='Pierre Delaunay',
