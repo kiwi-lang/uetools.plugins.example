@@ -4,7 +4,8 @@ from dataclasses import dataclass
 from simple_parsing import choice
 from uetools.command import Command, command_builder, newparser
 from uetools.conf import editor_cmd, find_project, uat
-from uetools.format.base import Formatter, popen_with_format
+from uetools.format.base import Formatter
+from uetools.run import popen_with_format
 
 
 @dataclass
